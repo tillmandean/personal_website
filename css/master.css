@@ -1,5 +1,49 @@
 body {
   color: black;
-  background-color: lightgrey;
+  background-color: white;
   font-family: Arial, Verdana, sans-serif;
+}
+#homepage {
+  max-width: 940px;
+  min-width: 720px;
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  border: 4px double black;
+  background-color: lightgrey;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+ul {
+  width: 570px;
+  padding: 15px;
+  margin: 0px auto 0px auto;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+li {
+  display: inline;
+  margin: 0px 3px;
+}
+p {
+  text-align: center;
+  width: 600px;
+  margin: 20px auto 20px auto;
+  font-weight: normal
+}
+a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 6px 18px 5px 18px;
+}
+a:hover, a:on {
+  color: seagreen;
+  background-color: orange;
 }
