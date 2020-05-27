@@ -3,14 +3,6 @@ body {
   background-color: white;
   font-family: Arial, Verdana, sans-serif;
 }
-#page {
-  max-width: 940px;
-  min-width: 720px;
-  margin: 10px auto 10px auto;
-  padding: 20px;
-  border: 4px double black;
-  background-color: lightgrey;
-}
 #loadingContent {
   position: fixed;
   bottom : 0px;
@@ -57,14 +49,16 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
 }
-ul {
-  width: 570px;
+nav {
+  background-color: #A4A4A4;
+  color: #40a798;
+  width: auto;
   padding: 15px;
   margin: 0px auto 0px auto;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #A4A4A4;
+  border-bottom: 2px solid #A4A4A4;
   text-align: center;
 }
 li {
@@ -74,7 +68,7 @@ li {
 .vertical {
   display: flex;
 }
-p {
+.download {
   text-align: center;
   width: 600px;
   margin: 20px auto 20px auto;
@@ -86,7 +80,7 @@ a {
   text-decoration: none;
   padding: 6px 18px 5px 18px;
 }
-a:hover, a:on {
-  color: lightblue;
-  background-color: #33FF9E;
+a:hover, a.on {
+  color: #40a798;
+  background-color:  #ffffff00;
 }
